@@ -20,7 +20,10 @@ public class TestServiceImpl implements TestService {
             var question = questions.get(i);
             ioService.printFormattedLine("%d. %s",i + 1, question.text());
             var answers = question.answers();
-            answers.forEach(answer -> ioService.printFormattedLine("\u0009 %s", answer.text()));
+            for (int j = 0; j < answers.size(); j++) {
+                var answer = answers.get(j);
+                ioService.printFormattedLine("\u0009 %d) %s", j + 1, answer.text());
+            }
             ioService.printLine("");
         }
     }
