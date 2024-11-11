@@ -1,0 +1,6 @@
+# Добавить сюда своих вопросов. Эту строку надо пропустить при настройке CsvToBean (withSkipLines)
+What was the elephant doing when Napoleon arrived??;Running%false|Eating grass%true|Screaming%false
+What color is the emergency brake on an airplane?;Blue%false|WHF?%true|Red%false|Yellow%false
+What is Java?;Language%true|Island%true|Cigarettes%true|Motorcycle%true
+What is the current major release number of spring?;2%false|3%false|6%true|7%false|9%false
+Which annotation should you choose if you are in doubt?;Component%true|Service%false|Configuration%false
